@@ -1,0 +1,212 @@
+[
+    {
+        "endpoint": "/api/encrypt",
+        "tag": "group_0",
+        "title": "Weak encryption in api encrypt"
+    },
+    {
+        "endpoint": "/secure",
+        "tag": "group_1",
+        "title": "Missing HSTS policy"
+    },
+    {
+        "endpoint": "/config",
+        "tag": "group_10",
+        "title": "Information disclosure in config"
+    },
+    {
+        "endpoint": "/config",
+        "tag": "group_10",
+        "title": "Config information disclosure"
+    },
+    {
+        "endpoint": "/config",
+        "tag": "group_10",
+        "title": "Remote Code Execution at /config"
+    },
+    {
+        "endpoint": "/config",
+        "tag": "group_10",
+        "title": "Public config leads to info disclosure"
+    },
+    {
+        "endpoint": "/config",
+        "tag": "group_10",
+        "title": "Misconfigured config endpoint"
+    },
+    {
+        "endpoint": "/config",
+        "tag": "group_10",
+        "title": "RCE vulnerability in /config"
+    },
+    {
+        "endpoint": "/login",
+        "tag": "group_11",
+        "title": "SQL Injection vulnerability (login)"
+    },
+    {
+        "endpoint": "/login",
+        "tag": "group_11",
+        "title": "Potential login SQL injection"
+    },
+    {
+        "endpoint": "/login",
+        "tag": "group_11",
+        "title": "SQL Injection in login form"
+    },
+    {
+        "endpoint": "/login",
+        "tag": "group_11",
+        "title": "Suspected SQL Injection in adminstrator login"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_12",
+        "title": "Profile authorization bypass"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_13",
+        "title": "Profile XSS vulnerability"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_13",
+        "title": "Profile authorization bypass vulnerability"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_14",
+        "title": "Remote code execution found at /profile"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_14",
+        "title": "Arbitrary code execution in /profile"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_15",
+        "title": "Reflected XSS on user profile"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_15",
+        "title": "XSS in user profile"
+    },
+    {
+        "endpoint": "/profile",
+        "tag": "group_15",
+        "title": "Cross-Site Scripting in profile page"
+    },
+    {
+        "endpoint": "/session",
+        "tag": "group_16",
+        "title": "Session fixation in session"
+    },
+    {
+        "endpoint": "/session",
+        "tag": "group_16",
+        "title": "Session fixation discovered"
+    },
+    {
+        "endpoint": "/session",
+        "tag": "group_16",
+        "title": "Session fixation vulnerability"
+    },
+    {
+        "endpoint": "/session",
+        "tag": "group_16",
+        "title": "Session fixation flaw"
+    },
+    {
+        "endpoint": "/upload",
+        "tag": "group_17",
+        "title": "Insecure file upload (upload endpoint)"
+    },
+    {
+        "endpoint": "/upload",
+        "tag": "group_17",
+        "title": "File upload flaw in endpoint"
+    },
+    {
+        "endpoint": "/upload",
+        "tag": "group_17",
+        "title": "Arbitrary file upload vulnerability"
+    },
+    {
+        "endpoint": "/upload",
+        "tag": "group_17",
+        "title": "Unauthenticated file upload vulnerability"
+    },
+    {
+        "endpoint": "/secret",
+        "tag": "group_2",
+        "title": "Secret key exposure"
+    },
+    {
+        "endpoint": "/assets",
+        "tag": "group_3",
+        "title": "Cache poisoning in /assets"
+    },
+    {
+        "endpoint": "/subdomain",
+        "tag": "group_4",
+        "title": "Subdomain takeover vulnerability"
+    },
+    {
+        "endpoint": "/files",
+        "tag": "group_5",
+        "title": "Directory Traversal in files"
+    },
+    {
+        "endpoint": "/headers",
+        "tag": "group_6",
+        "title": "CRLF injection in /headers"
+    },
+    {
+        "endpoint": "/apache",
+        "tag": "group_7",
+        "title": "SSTI vulnerability in EOL Apache"
+    },
+    {
+        "endpoint": "/apache",
+        "tag": "group_7",
+        "title": "Obsolete Apache vulnerable to template injection"
+    },
+    {
+        "endpoint": "/apache",
+        "tag": "group_7",
+        "title": "Server-Side Template Injection in old Apache"
+    },
+    {
+        "endpoint": "/apache",
+        "tag": "group_7",
+        "title": "Apache 2.2.9 with SSTI flaw"
+    },
+    {
+        "endpoint": "/cart",
+        "tag": "group_8",
+        "title": "CSRF vulnerability in cart checkout"
+    },
+    {
+        "endpoint": "/cart",
+        "tag": "group_8",
+        "title": "CSRF in cart checkout"
+    },
+    {
+        "endpoint": "/comments",
+        "tag": "group_9",
+        "title": "Comments injection flaw"
+    },
+    {
+        "endpoint": "/comments",
+        "tag": "group_9",
+        "title": "Comment injection in comments"
+    },
+    {
+        "endpoint": "/comments",
+        "tag": "group_9",
+        "title": "Comment injection vulnerability"
+    }
+]
